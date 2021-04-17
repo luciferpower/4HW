@@ -12,7 +12,7 @@ namespace _4HW {
         protected void Page_Load(object sender, EventArgs e) {
             ddl_Area.Items.Clear();
             ddl_Area.Items.Add("北區");
-            ddl_Area.Items.Add("南區");
+            ddl_Area.Items.Add("中區");
             if (ViewState["select"] != null)
             {
                 int selectindex = int.Parse(ViewState["select"].ToString());
