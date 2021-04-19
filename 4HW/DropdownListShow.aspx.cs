@@ -51,7 +51,7 @@ namespace _4HW {
                     ddl_Place.Items.Add(place[i]);
                 }
             }
-            //ViewState["select"] = ddl_Area.SelectedIndex;
+            ViewState["select"] = ddl_Area.SelectedIndex;
 
             
         }
