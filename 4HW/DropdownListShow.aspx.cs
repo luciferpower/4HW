@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace _4HW {
     public partial class DropdownListShow : System.Web.UI.Page {
-        string[] place = new string[] {"基隆","台北","新北","苗栗","台中","南投" };
+        string[] place = new string[] {"基隆","台北","新北","苗栗","台中","南投"};
         
         protected void Page_Load(object sender, EventArgs e) {
             ddl_Area.Items.Clear();
